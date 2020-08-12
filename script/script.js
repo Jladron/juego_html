@@ -28,4 +28,4 @@ function comprobarMuerte() {
 }
 
 
-setInterval(checkDead, 10);
+setInterval(comprobarMuerte, 10);
