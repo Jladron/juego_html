@@ -1,11 +1,11 @@
-#juego{
+#game{
     width: 500px;
     height: 200px;
     border: 1px solid black;
     margin: auto;
 }
 
-#personaje{
+#character{
     width: 20px;
     height: 50px;
     background-color: red;
@@ -13,15 +13,15 @@
     top: 150px; 
 }
 
-@keyframes salto{
+@keyframes jump{
     0%{top: 150px;}
     30%{top: 100px;}
     70%{top: 100px;}
     100%{top: 150px;}
 }
 
-.animacion{
-    animation: salto 300ms linear;
+.animate{
+    animation: jump 300ms linear;
 }
 
 #block{
